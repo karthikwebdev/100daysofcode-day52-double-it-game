@@ -34,7 +34,7 @@ function game(n)
             document.getElementsByClassName('small-box')[prev].innerHTML = ``
             document.getElementsByClassName('small-box')[prev].style.background = "var(--gradient-color)"
             document.getElementsByClassName('small-box')[prev].style.border = ""
-         }, 300);
+         }, 600);
         }
     }
     else
